@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	.demo{
+		height: 500px;
+		width: 700px;
+		margin: auto;
+		position: relative;
+
+		}
+	img{
+		height: 100%;
+		width: 100%;
+
+	}
+	.next{
+		border: none;
+		background-color: orange;
+		color: white;
+		font-size: 30px;
+		position: absolute;
+		right: 0;
+		top: 40%;
+
+	}
+
+	.previous{
+		border: none;
+		background-color: orange;
+		color: white;
+		font-size: 30px;
+		position: absolute;
+		top: 40%;
+		left: 0;
+	}
+	button:hover{
+		background-color: lightblue;
+
+
+	}
+	button{
+		display: none;
+	}
+	.demo:hover button{
+		display: block;
+	}
+	</style>
+</head>
+<body>
+<div class="demo">
+	<img  src="demo2.jpg">
+	<button class="next">&gt;</button>
+	<button class="previous">&lt;</button>
+
+</div>
+</body>
+</html>

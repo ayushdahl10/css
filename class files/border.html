@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>border radius</title>
+	<style type="text/css">
+		.first
+		{
+			/*for circle height and width should be equal*/
+			height: 200px;
+			width: 200px;
+			background-color: blue;
+			border-top-left-radius: 10px;
+
+		}
+		.second
+		{
+			margin: auto;
+			position: relative;
+			height: 150px;
+			width: 300px;
+			background-color: red;
+		}
+		.child
+		{
+			position: absolute;
+			left:60%;
+			bottom: 0;
+			height: 100px;
+			width: 100px;
+			background-color:red;
+			transform: rotate(45deg);
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="first"></div>
+<div class="second">
+	<div class="child"></div>
+</div>
+
+</body>
+</html>

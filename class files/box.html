@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.demo
+		{
+			width: 500px;
+			height: 400px;
+			position: relative;
+
+
+		}
+		img
+		{
+			width: 100%;
+			height: 100%;
+
+		}
+		.box
+		{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			display: none;
+		}
+		.demo:hover .box
+		{
+			display: block;
+			background-color: yellow;
+			opacity: 0.3;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+			button
+		{
+			
+			display: none;
+			position: absolute;
+			top: 45%;
+			left: 40%;
+			font-family: monospace;
+			border: none;
+			color: white;
+			background-color: black;
+			
+		}
+		.demo:hover button
+		{
+			display: block;
+					
+		}
+	
+
+
+	</style>
+</head>
+<body>
+<div class="demo">
+	<img src="demo.jpg">
+	<div class="box"></div>
+	<button >PRESS HERE</button>
+	
+
+
+</div>
+
+
+</body>
+</html>
