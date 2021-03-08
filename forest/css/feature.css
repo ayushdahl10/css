@@ -1,0 +1,124 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.feature .first-page
+{
+	width: 100%;
+	height: 900px;
+	position: relative;
+	top: 250px;
+}
+.feature .first-page .top
+{
+	width: 80%;
+	height: 130px;
+	position: absolute;
+	left: 10%;
+}
+.feature .first-page .top p
+{
+	position: absolute;
+	top: 15%;	
+	left: 10%;
+	width: 400px;
+	font-size: 19px;
+	line-height: 25px;
+	color: rgb(80,80,80);
+
+
+}
+.feature .first-page .top h1
+{
+	position: absolute;
+	left: 50%;
+	font-size: 23px;
+	font-family: serif;
+	color: rgb(181,255,112);
+}
+.feature .first-page .top h2
+{
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	font-family:serif;
+	font-size: 35px;
+}
+.feature .first-page .bottom .left-child
+{
+	position: absolute;
+	top: 10%;
+	left:10%;
+	width: 30%;
+	height: 500px;
+	background-image: url(../images/pic13.jpg);
+	background-size: cover;
+
+}
+.feature .first-page .bottom .right-child
+{
+	position: absolute;
+	height: 500px;
+	width: 45%;
+	top: 10%;
+	left: 45%;
+	background-color: white;
+}
+.feature .first-page .bottom .right-child .first-box
+{
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	width: 90%;
+	height: 120px;
+	border-radius: 10px;
+	box-shadow: -3px 7px 39px -5px rgb(0 0 0);
+}
+.feature .first-page .bottom .right-child .middle-box
+{
+	
+	position: absolute;
+	top: 35%;
+	left: 8%;
+	width: 85%;
+	height: 120px;
+	border-radius: 10px;
+	box-shadow: -3px 7px 39px -5px rgb(0 0 0);
+}
+.feature .first-page .bottom .right-child .end-box
+{
+	position: absolute;
+	top: 65%;
+	left: 2%;
+	width: 90%;
+	height: 120px;
+	border-radius: 10px;
+	box-shadow: -3px 7px 39px -5px rgb(0 0 0);
+}
+.feature .first-page .bottom .right-child .child i
+{
+	font-size: 35px;
+	position: absolute;
+	top: 40%;
+	left: 15%;
+}
+.feature .first-page .bottom .right-child .child h1
+{
+	font-size: 22px;
+	position: absolute;
+	top: 15%;
+	left: 35%;
+	color: rgb(181,225,112);
+}
+.feature .first-page .bottom .right-child .child p
+{
+	font-size: 16px;
+	position: absolute;
+	line-height: 30px;
+	top: 45%;
+	left: 30%;
+	color: rgb(50,50,50);
+}

@@ -1,0 +1,142 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.volunteer
+{
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+.volunteer .top 
+{
+	position: absolute;
+	top: 5%;
+
+	width: 100%;
+	height: 100px;
+	
+}
+.volunteer .top p
+{
+	position: absolute;
+	left: 20%;
+	top: 5%;
+	width: 400px;
+	line-height: 30px;
+	font-size: 18px;
+	color: rgb(90,90,90);
+}
+.volunteer .top h1
+{
+	position: absolute;
+	left: 50%;
+	color: rgb(181,220,112);
+	font-size: 25px;
+}
+.volunteer .top h2
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	color: black;
+	font-size: 35px;
+}
+
+.volunteer .bottom
+{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 25%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	justify-content: space-around;
+
+}
+.volunteer .bottom .child
+{
+	width: 20%;
+	height: 450px;
+	position: relative;
+}
+.volunteer .bottom .child .img
+{
+	margin-left: 25px;
+	width: 80%;
+	height: 300px;
+}
+
+.volunteer .bottom .child .i1
+{
+	background-image: url(../images/pic17.jpg);
+	background-size: cover;
+}
+.volunteer .bottom .child .i2
+{
+	background-image: url(../images/pic18.jpg);
+	background-size: cover;
+}
+.volunteer .bottom .child .i3
+{
+	background-image: url(../images/pic19.jpg);
+	background-size: cover;
+}
+.volunteer .bottom .child .i4
+{
+	background-image: url(../images/pic20.jpg);
+	background-size: cover;
+}
+.volunteer .bottom .child h1
+{
+	position: absolute;
+	color: rgb(181,220,112);
+	font-size: 25px;
+	top: 70%;
+	left: 25%;
+}
+.volunteer .bottom .child h2
+{
+	position: absolute;
+	color: black;
+	font-family: serif;
+	font-size: 15px;
+	top: 80%;
+	left: 35%;
+}
+.volunteer .bottom .child i
+{
+	color: black;
+	font-size: 30px;
+
+}
+.volunteer .bottom .child .fa-facebook
+{
+	position: absolute;
+	top: 85%;
+	left: 25%;
+	color: black;
+	font-size: 30px;
+
+}
+.volunteer .bottom .child .fa-twitter
+{
+	position: absolute;
+	top: 85%;
+	left: 42%;
+	color: black;
+	font-size: 30px;
+}
+.volunteer .bottom .child .fa-wifi
+{
+	position: absolute;
+	top: 85%;
+	left: 60%;
+	color: black;
+	font-size: 30px;
+
+}
